@@ -6,7 +6,6 @@ public class Student {
     private String firstName;
     private String lastName;
     private int studentNumber;
-    private String name;
 
     //constructor
     /**
