@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -6,6 +7,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private int studentNumber;
+    private ArrayList<String> interests;
 
     //constructor
     /**
@@ -14,11 +16,12 @@ public class Student {
      * The constructor must be the same name as the class (including the upper case first letter)
      * The constructor does NOT have a return type
      */
-    public Student(String firstName, String lastName, int studentNumber)
+    public Student(String firstName, String lastName, int studentNumber, ArrayList<String> intrests)
     {
         this.firstName = firstName;
         this.lastName = lastName;
         this.studentNumber = studentNumber;
+        this.interests = intrests;
     }
 
     //setters and getters
@@ -77,10 +80,52 @@ public class Student {
      */
     public void setStudentNumber(int studentNumber)
     {
-        this.studentNumber = studentNumber;
+        if(studentNumber >= 100000000 && studentNumber <= 999999999)
+        {
+            this.studentNumber = studentNumber;
+        }
+        else
+        {
+            throw new IllegalArgumentException(studentNumber+ "out of range");
+        }
     }
     public int getStudentNumber()
     {
         return studentNumber;
+    }
+
+    public ArrayList<String> getInterests() {
+        return interests;
+    }
+
+    public static ArrayList<String> getAllInterests()
+    {
+        ArrayList<String> interests = new ArrayList<>();
+        interests.add("hiking");
+        interests.add("skiing");
+        interests.add("reading");
+        interests.add("coding");
+        interests.add("gaming");
+        return interests;
+    }
+
+    /**
+     * This method will validate that the argument is in the collection of
+     * "hiking","skiing","reading","coding","gaming" and set the instance variable
+     * @param interests
+     */
+    public void setInterests(ArrayList<String> interests) {
+        ArrayList<String> validInterests = getAllInterests();
+        for(String interest : interests)
+        {
+            if(validInterests.contains(interest))
+            {
+                this.interests = interests;
+            }
+            else
+            {
+                throw new IllegalArgumentException(interest + " is not valid. Valid options are : "+validInterests);
+            }
+        }
     }
 }
