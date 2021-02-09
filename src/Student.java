@@ -76,7 +76,7 @@ public class Student {
 
     /**
      * This methods will set student number and return it
-     * @param studentNumber
+     * @param studentNumber - this is an Int to represent the studentNumber of the student
      */
     public void setStudentNumber(int studentNumber)
     {
@@ -112,7 +112,7 @@ public class Student {
     /**
      * This method will validate that the argument is in the collection of
      * "hiking","skiing","reading","coding","gaming" and set the instance variable
-     * @param interests
+     * @param interests - this is a ArrayList to represent the interests of the student
      */
     public void setInterests(ArrayList<String> interests) {
         ArrayList<String> validInterests = getAllInterests();

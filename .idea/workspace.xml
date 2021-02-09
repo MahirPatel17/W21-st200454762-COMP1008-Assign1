@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db37f191-4126-4f82-9387-89b2c399f56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="db37f191-4126-4f82-9387-89b2c399f56b" name="Default Changelist" comment="here is my project.. did a minor change&#10;and added the student interests..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StudentExperiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentExperiment.java" afterDir="false" />
@@ -63,7 +62,7 @@
       <workItem from="1612300689669" duration="8000" />
       <workItem from="1612301059670" duration="511000" />
       <workItem from="1612816219745" duration="3627000" />
-      <workItem from="1612902883053" duration="952000" />
+      <workItem from="1612902883053" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="here is my project..">
       <created>1612298153943</created>
@@ -86,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612301309102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="here is my project.. did a minor change&#10;and added the student interests.">
+      <created>1612903882589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612903882589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +104,8 @@
     </ignored-roots>
     <MESSAGE value="here is my project.." />
     <MESSAGE value="here is my project.. did a minor change" />
-    <option name="LAST_COMMIT_MESSAGE" value="here is my project.. did a minor change" />
+    <MESSAGE value="here is my project.. did a minor change&#10;and added the student interests." />
+    <MESSAGE value="here is my project.. did a minor change&#10;and added the student interests.." />
+    <option name="LAST_COMMIT_MESSAGE" value="here is my project.. did a minor change&#10;and added the student interests.." />
   </component>
 </project>
